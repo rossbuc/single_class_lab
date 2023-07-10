@@ -9,12 +9,13 @@ class Team:
         self.players.append(new_player_name)
 
     def has_player(self, player_name):
-        if player_name in self.players:
-            return True
-        else: 
-            return False
+        # if player_name in self.players:
+        #     return True
+        # else: 
+        #     return False
+
+        return player_name in self.players 
 
     def play_game(self, has_won):
         if has_won:
             self.points += 3
-            
