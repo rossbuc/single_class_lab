@@ -4,7 +4,7 @@ class Student:
         self.cohort = cohort
 
     def talk(self):
-        return "I can talk"
+        return "I can talk!"
 
     def say_favourite_language(self, language):
         return "I love " + language
